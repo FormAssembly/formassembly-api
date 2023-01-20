@@ -14,9 +14,9 @@ The **endpoint**, in API parlance, is the destination URL for your API requests.
 
 | Edition  | Endpoint | Note |
 | -------- | -------- | ---- |
-| FormAssembly Developer Sandbox | https://developer.formassembly.com/api_v1/ | For development and testing only |
-| FormAssembly.com | https://app.formassembly.com/api_v1/ | |
-| FormAssembly Enterprise Cloud | https://instance_name.tfaforms.net/api_v1/   | Adjust `instance_name` as needed |
+| FormAssembly Developer Sandbox | https://developer.formassembly.com | For development and testing only |
+| FormAssembly.com | https://app.formassembly.com | |
+| FormAssembly Enterprise Cloud | https://instance_name.tfaforms.net | Adjust `instance_name` as needed |
 
 From this point on, we'll use the FormAssembly.com endpoint. Just remember to adjust the URIs to match your own FormAssembly edition.
 
@@ -408,10 +408,10 @@ If you are developing for an existing Enterprise instance, you will need to self
 
 1. Login to your Enterprise account as an admin.
 
-2. Navigate to the **Admin Dashboard** tab. <div></div> ![Step1](https://www.formassembly.com/content/uploads/2017/07/dev-1-admin-dashboard.png) 
+2. Navigate to the **Admin Dashboard** tab. <div></div> ![Step1](content/AdminDashboardMenu.png) 
 
-3. In the Admin Dashboard, navigate to **Settings > Third Party Apps** on the sidebar menu.  <div></div> ![Step2](https://www.formassembly.com/content/uploads/2017/07/dev-2-third-party-apps.gif)
+3. In the Admin Dashboard, navigate to **Settings > Third Party Apps** on the sidebar menu.  <div></div> ![Step2](content/SettingThirdpartyApp.gif)
 
-4. Click "Register a new application." <div></div> ![Step3](https://www.formassembly.com/content/uploads/2017/07/dev-3-register.png)
+4. Click "Register a new application." <div></div> ![Step3](content/RegisterNewApplication.png)
 
-5. Pick a name for your new application, and take note of your OAuth credentials. <div></div> ![Step4](https://www.formassembly.com/content/uploads/2017/07/dev-4-app-name.gif)
+5. Pick a name for your new application, and take note of your OAuth credentials. <div></div> ![Step4](content/ApplicationTitle.gif)
