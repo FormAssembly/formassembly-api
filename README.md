@@ -410,7 +410,7 @@ If you are developing for an existing Enterprise instance, you will need to self
 
 2. Navigate to the **Admin Dashboard** tab. <div></div> ![Step1](content/AdminDashboardMenu.png) 
 
-3. In the Admin Dashboard, navigate to **Settings > Third Party Apps** on the sidebar menu.  <div></div> ![Step2](content/SettingThirdpartyApp.gif)
+3. In the Admin Dashboard, navigate to **Settings > Third Party Apps** on the sidebar menu.  <div></div> ![Step2](content/SettingThirdPartyApp.gif)
 
 4. Click "Register a new application." <div></div> ![Step3](content/RegisterNewApplication.png)
 
