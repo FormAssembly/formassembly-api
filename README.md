@@ -16,7 +16,7 @@ The **endpoint**, in API parlance, is the destination URL for your API requests.
 | -------- | -------- | ---- |
 | FormAssembly Developer Sandbox | https://developer.formassembly.com/api_v1/ | For development and testing only |
 | FormAssembly.com | https://app.formassembly.com/api_v1/ | |
-| FormAssembly Enterprise Cloud | https://instance_name.tfaforms.net/api_v1/   | Adjust `instance_name` as needed |
+| FormAssembly Essentials, Enterprise, Teams, Government | https://instance_name.tfaforms.net/api_v1/   | Adjust `instance_name` as needed |
 
 From this point on, we'll use the FormAssembly.com endpoint. Just remember to adjust the URIs to match your own FormAssembly edition.
 
@@ -24,7 +24,9 @@ From this point on, we'll use the FormAssembly.com endpoint. Just remember to ad
 
 ### Registration
 
-Before you can interact with the API, you must obtain a `CLIENT_ID` and a `CLIENT_SECRET` code. This is done by completing the registration process on the particular instance you are targeting. For the Developer Sandbox and FormAssembly.com, you must register through the [FormAssembly Developer Hub](https://www.formassembly.com/api/). For Enterprise instances, the FormAssembly administrator can register your app.
+Before you can interact with the API, you must obtain a `CLIENT_ID` and a `CLIENT_SECRET` code. This is done by completing the registration process on the particular instance you are targeting. 
++ For the Developer Sandbox and FormAssembly.com, you must register through the [FormAssembly Developer Hub](https://www.formassembly.com/api/). 
++ For Essentials, Team, Enterprise, and Government instances, the FormAssembly administrator can register your app [here](https://github.com/FormAssembly/formassembly-api#self-register-your-app-on-an-existing-enterprise-instance).
 
 ***
 
@@ -404,7 +406,7 @@ Object | Description | Example
 
 ### Self-Register Your App on an Existing Enterprise Instance
 
-If you are developing for an existing Enterprise instance, you will need to self-register your app by following the instructions below. 
+If you are developing for an existing Essentials, Team, Enterprise, and Government instances, you will need to self-register your app by following the instructions below.
 
 1. Login to your Enterprise account as an admin.
 
