@@ -417,3 +417,39 @@ If you are developing for an existing Essentials, Team, Enterprise, and Governme
 4. Click "Register a new application." <div></div> ![Step3](content/RegisterNewApplication.png)
 
 5. Pick a name for your new application, and take note of your OAuth credentials. <div></div> ![Step4](content/ApplicationTitle.gif)
+
+***
+
+### FAQ
+
+#### 1. How can we access file uploads from a form?
+The export zip API call to obtain the file upload path. 
+
+Then append this to the instance name.
+EX: https://app.formassembly.com/api_v1/responses/export/5040999.zip
+
+Which returns uploads/get_zip/a2124d28e77f7b2da80ed12301cfcb17-form_5040999.zip
+
+Then appended to instance will download the upload file. 
+https://app.formassembly.com/uploads/get_zip/a2124d28e77f7b2da80ed12301cfcb17-form_5040999.zip
+
+#### 2. What happens with fields marked as sensitive? 
+Fields marked as sensitive will show as redacted when you access the endpoint until you log into the FormAssembly account and unlock the report.
+
+#### 3. Can the Response PDF be sent through the API? 
+No
+
+#### 4. Can we prefill data to the form using the FormAssembly API?
+No
+
+#### 5. Is there something to get a token via Oauth without a web based sign in?
+API call from Postman APP
+
+#### 6. Is our API token user based or app based?
+User based
+
+#### 7. How can someone have it pull data on a time schedule?
+There is no scheduling functionality, To accomplish this the user can use third-party scheduling applications that will call [API](https://github.com/FormAssembly/formassembly-api#export) based on their preferred schedule or create their own application.
+
+#### 8. Can we pull data from workflow in the API?
+No
