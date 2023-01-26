@@ -425,6 +425,14 @@ If you are developing for an existing Essentials, Team, Enterprise, and Governme
 #### 1. How can we access file uploads from a form?
 The user can use the export zip API call to obtain the file upload path then append this to the instance name.
 
+e.g https://app.formassembly.com/api_v1/responses/export/5040999.zip
+
+which returns uploads/get_zip/a2124d28e77f7b2da80ed12301cfcb17-form_5040999.zip,
+
+then appended to instance will download the upload file. 
+
+https://app.formassembly.com/uploads/get_zip/a2124d28e77f7b2da80ed12301cfcb17-form_5040999.zip
+
 #### 2. What happens with fields marked as sensitive? 
 Fields marked as sensitive will show as redacted when you access the endpoint until you log into the FormAssembly account and unlock the report.
 
