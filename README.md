@@ -238,6 +238,7 @@ additional parameters:
 + filter: if set to 'all', export will include both completed and incomplete responses. If not present, only completed responses will be returned.
 + response_ids: set of comma delimited response ids to retrieve
 + flag: starred is `1`, unstarred is `` (blank)
++ unlock: For Enterprise instance, `1` to unlock sensitive data fields from report.
 
 
 ##### Examples
