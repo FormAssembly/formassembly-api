@@ -435,7 +435,7 @@ then appended to instance will download the upload file.
 https://app.formassembly.com/uploads/get_zip/a2124d28e77f7b2da80ed12301cfcb17-form_5040999.zip
 
 #### 2. What happens with fields marked as sensitive? 
-Fields marked as sensitive will show as redacted when you access the endpoint until you log into the FormAssembly account and unlock the report.
+Fields marked as sensitive will show as redacted when you access the endpoint. If you have permission to view sensitive data, you can view sensitive fields in the [export](https://github.com/FormAssembly/formassembly-api#export) API for Enterprise instances with the help of the `unlock` request parameter.
 
 #### 3. Can the Response PDF be sent through the API? 
 No
