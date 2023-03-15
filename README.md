@@ -239,6 +239,8 @@ additional parameters:
 + response_ids: set of comma delimited response ids to retrieve
 + flag: starred is `1`, unstarred is `` (blank)
 + unlock: For Enterprise instance, `1` to unlock sensitive data fields from report.
++ page: return a single page of Responses. The number of returned responses depends on the `page_size` param. 
++ page_size: the amount of Responses to return when retrieving a single page. Defaults to 200.
 
 
 ##### Examples
@@ -246,6 +248,8 @@ additional parameters:
   * would retrieve all responses (including incompletes) created between January 1, 2012 and January 1, 2013.
 + https://app.formassembly.com/api_v1/responses/export/1.xml?response_ids=10,11,12
   * would retrieve only responses with IDs: 10, 11, 12.
++ https://app.formassembly.com/api_v1/responses/export/1.csv?page=7&page_size=300
+  * would return the 7th page of 300 responses in a report.  
 
 ***
 
